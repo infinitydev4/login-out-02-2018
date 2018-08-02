@@ -21,4 +21,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+installation: bundle install --without production
+lancer en local: rails s
+
+lien heroku:https://nameless-refuge-35289.herokuapp.com/
