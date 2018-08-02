@@ -1,0 +1,12 @@
+<div class="center jumbotron">
+  <h1>Bienvenue !</h1>
+  <h3>
+    Tu veux connaître la réponse à la question de l'univers ?
+  </h3>
+  <a href= <% if logged_in? %>
+      <%= answer_path%>
+    <%else%>
+      <%= login_path %>
+    <%end%>
+    ><button class="btn btn-primary">Oui je veux !</button></a>
+</div>
