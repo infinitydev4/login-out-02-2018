@@ -1,26 +1,21 @@
-# README
+****************************************
+***The THP project: login-out-02-2018***
+****************************************
+Configuration ruby & Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version : ******2.5.1******** 
+Rails version : *****5.2.0********
 
-Things you may want to cover:
+Installation
 
-* Ruby version
+1-- Installer les gems
+bundle install
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+lancer app sur heroku:
 installation: bundle install --without production
 
-lien heroku:https://nameless-refuge-35289.herokuapp.com/
+rails db:migrate
+rails db:seed
+
+
+lien heroku: https://nameless-refuge-35289.herokuapp.com/
